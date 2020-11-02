@@ -21,9 +21,6 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: |
-            Changes in this Release
-            - First Change
-            - Second Change
+          body_path: https://raw.githubusercontent.com/lvgl/blog/master/_posts/2020-10-20-release_v7.7.0.md
           draft: false
           prerelease: false
