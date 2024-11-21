@@ -1,0 +1,64 @@
+---
+name: User Story
+description: Describe a feature by introducing it from a user's point of view
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Description
+  - type: input
+    attributes:
+      label: As a
+      placeholder: developer/designer/manager/etc
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: I want
+      placeholder: the action to be performed
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: In order to
+      placeholder: why I want to do that? What problem it solves, how does it help?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Acceptance Criteria
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: Define what "done" means for this user story. List specific, measurable conditions that need to be met.
+      placeholder: |
+        - [ ] Something happens when I press Ctrl+T
+        - [ ] Does not crash on MacOS
+        - [ ] Etc
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Tasks
+  - type: textarea
+    attributes:
+      label: Tasks
+      description: Break the user story into smaller, actionable tasks. Also `@tag` the responsible users.
+      placeholder: |
+        - [ ] Design the new feature @user1
+        - [ ] Implement in TypeScript @user2
+        - [ ] Add tests @user2
+        - [ ] Update the docs @user3
+        - [ ] Etc
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Context
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Any extra information that might be useful to better understand the use case and the tasks.
