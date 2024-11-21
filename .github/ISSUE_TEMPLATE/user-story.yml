@@ -2,10 +2,6 @@
 name: User Story
 description: Describe a feature by introducing it from a user's point of view
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Description
   - type: input
     attributes:
       label: As a
@@ -24,10 +20,6 @@ body:
       placeholder: why I want to do that? What problem it solves, how does it help?
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Acceptance Criteria
   - type: textarea
     attributes:
       label: Acceptance Criteria
@@ -38,10 +30,6 @@ body:
         - [ ] Etc
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Tasks
   - type: textarea
     attributes:
       label: Tasks
@@ -54,10 +42,6 @@ body:
         - [ ] Etc
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Additional Context
   - type: textarea
     attributes:
       label: Additional Context
